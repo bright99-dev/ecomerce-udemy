@@ -27,11 +27,11 @@ const CartButtons = () => {
             logout({ returnTo: window.location.origin });
           }}
         >
-          <img className="login-icon" src="/icons/login.svg" alt="login" />
+          <img className="login-icon" src="/icons/login.png" alt="login" />
         </button>
       ) : (
         <button type="button" className="auth-btn" onClick={loginWithRedirect}>
-          <img className="logout-icon" src="/icons/logout.svg" alt="logout" />
+          <img className="logout-icon" src="/icons/login.svg" alt="logout" />
         </button>
       )}
     </Wrapper>
